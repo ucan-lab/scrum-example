@@ -32,6 +32,8 @@ GitHub と Claude でスクラム開発をするサンプルプロジェクト�
 
 1スプリント = 1 Milestone（名前は `スプリント 1` のような連番、期日で期間を表す）。ストーリーとタスクに付ける。エピックは複数のスプリントにまたがるので付けない。ラベルや Issue ではスプリントを表さない。
 
+スプリントは `sprint-start` → 開発 → `sprint-review` → `sprint-retro` の順に回す。完成の定義は `docs/definition-of-done.md`、ふりかえりの記録は `docs/retrospectives/sprint-<N>.md`。
+
 ## State
 
 初期状態で、ファイルは `README.md`（見出しのみ）しかない。ビルド・lint・テストのコマンドは無い。構成が固まったら、ラベル定義・テンプレート・スキルの置き場所と相互の関係をここに追記する。
