@@ -1,0 +1,26 @@
+name: エピック
+description: 複数のスプリントにまたがる大きな目標
+labels: ["階層: エピック"]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 背景と目的
+      description: なぜこの目標が必要か
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: ゴール
+      description: 何が達成されたらエピックを閉じてよいか
+      placeholder: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: non-goals
+    attributes:
+      label: スコープ外
+      description: 意図的にやらないこと
+    validations:
+      required: false

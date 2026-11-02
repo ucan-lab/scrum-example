@@ -1,0 +1,27 @@
+name: ストーリー
+description: ユーザーに価値を届ける単位。スプリントで見積もる
+labels: ["階層: ストーリー"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: ユーザーストーリー
+      description: 誰が、何をしたく、それはなぜか
+      placeholder: "〇〇として、△△したい。□□のために。"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 受け入れ条件
+      description: 満たしたらストーリーを閉じてよい条件
+      placeholder: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足
+      description: 制約、参考リンク、検討した代替案など
+    validations:
+      required: false

@@ -1,0 +1,26 @@
+name: タスク
+description: ストーリーを実現する作業単位
+labels: ["階層: タスク"]
+body:
+  - type: textarea
+    id: work
+    attributes:
+      label: 作業内容
+      description: 何をするか
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: 満たしたらタスクを閉じてよい条件
+      placeholder: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足
+      description: 制約、参考リンクなど
+    validations:
+      required: false

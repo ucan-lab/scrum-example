@@ -1,0 +1,72 @@
+# ラベル定義の正本。軸ごとに色を揃える（階層=灰、種別=青、優先度=赤〜黄、状態=緑、見積り=紫）。
+# 軸ごとの適用先は CLAUDE.md の「ラベル設計」を参照。
+
+# 階層: 親子は GitHub のサブ Issue で紐づける（エピック > ストーリー > タスク）
+- name: "階層: エピック"
+  color: "6e7781"
+  description: 複数のストーリーをまとめる大きな目標
+- name: "階層: ストーリー"
+  color: "6e7781"
+  description: ユーザーに価値を届ける単位。スプリントで見積もる
+- name: "階層: タスク"
+  color: "6e7781"
+  description: ストーリーを実現する作業単位
+
+# 種別
+- name: "種別: 機能"
+  color: "1d76db"
+  description: 新しい機能の追加
+- name: "種別: 不具合"
+  color: "1d76db"
+  description: 既存の挙動の修正
+- name: "種別: 改善"
+  color: "1d76db"
+  description: 挙動を変えない改善（リファクタリングなど）
+- name: "種別: ドキュメント"
+  color: "1d76db"
+  description: ドキュメントの追加・修正
+- name: "種別: 雑務"
+  color: "1d76db"
+  description: 設定・依存更新などの作業
+
+# 優先度
+- name: "優先度: 高"
+  color: "d73a4a"
+  description: 次のスプリントで着手する
+- name: "優先度: 中"
+  color: "fbca04"
+  description: 余力があれば次のスプリントで着手する
+- name: "優先度: 低"
+  color: "fef2c0"
+  description: バックログで保留する
+
+# 状態（完了は Issue の closed で表す）
+- name: "状態: 着手待ち"
+  color: "c2e0c6"
+  description: スプリントに入り、まだ着手していない
+- name: "状態: 進行中"
+  color: "0e8a16"
+  description: 作業中
+- name: "状態: レビュー待ち"
+  color: "5ebd78"
+  description: PR を出してレビューを待っている
+- name: "状態: ブロック中"
+  color: "b60205"
+  description: 外部要因や別の作業待ちで止まっている
+
+# 見積り（ストーリーポイント）
+- name: "見積り: 1"
+  color: "d4c5f9"
+  description: ストーリーポイント 1
+- name: "見積り: 2"
+  color: "d4c5f9"
+  description: ストーリーポイント 2
+- name: "見積り: 3"
+  color: "d4c5f9"
+  description: ストーリーポイント 3
+- name: "見積り: 5"
+  color: "d4c5f9"
+  description: ストーリーポイント 5
+- name: "見積り: 8"
+  color: "d4c5f9"
+  description: ストーリーポイント 8。大きいので分割を検討する
