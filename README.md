@@ -13,5 +13,6 @@ GitHub の Issue・ラベル・Milestone と Claude のスキルでスクラム�
 | PR テンプレート | `.github/pull_request_template.md` |
 | Claude スキル（ラベル同期、スプリントの開始、レビュー、ふりかえり、Issue の起票と整備） | `.claude/skills/` |
 | 完成の定義 | `docs/definition-of-done.md` |
+| 開発フロー（スプリントの流れ、ブランチ戦略、worktree、PR とマージ） | `docs/development-flow.md` |
 
 ラベルの使い分けとスプリントの回し方は `CLAUDE.md` にまとめている。

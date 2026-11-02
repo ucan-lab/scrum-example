@@ -36,6 +36,10 @@ GitHub と Claude でスクラム開発をするサンプルプロジェクト�
 
 スプリントは `sprint-start` → 開発 → `sprint-review` → `sprint-retro` の順に回す。完成の定義は `docs/definition-of-done.md`、ふりかえりの記録は `docs/retrospectives/sprint-<N>.md`。
 
+## ブランチ
+
+GitHub Flow。作業ブランチは `<Issue番号>-<kebab-case>`、worktree のディレクトリ名もブランチ名と同じ。Squash merge で `main` に入れる。詳細と図は `docs/development-flow.md`。図は draw.io の PNG（`docs/images/*.drawio.png`）で、draw.io で開くとそのまま編集できる。
+
 ## State
 
 初期状態で、ファイルは `README.md`（見出しのみ）しかない。ビルド・lint・テストのコマンドは無い。構成が固まったら、ラベル定義・テンプレート・スキルの置き場所と相互の関係をここに追記する。
